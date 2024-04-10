@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fafafa;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 400px;
+    margin: 100px auto;
+    margin-bottom: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.logo {
+    width: 150px;
+    height: 80px;
+    margin-bottom: 20px;
+}
+
+.login-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.login-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #3897f0;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.login-btn:hover {
+    background-color: #2176bd;
+}
+
+.forgot {
+    text-decoration: none;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #555;
+}
+.forgot-password a {
+    color: #494b4d; /* Color azul similar al del párrafo */
+    text-decoration: none; /* Quitar subrayado del enlace */
+    font-size: 13px;
+}
+
+
+.signup-link {
+    margin-top: 20px;
+}
+
+.signup-link a {
+    color: #3897f0;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.social-login {
+    margin-top: 20px;
+}
+
+.facebook-link {
+    color: #1877f2;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.facebook-link img {
+    width: 20px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.o{
+    text-align: center;
+    color: #706868;
+}
+.i{
+    display: block;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    padding: 15px;
+}
+.container2 {
+    max-width: 400px;
+    margin: 30px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.omg{
+    display: flex; /* Hace que los elementos se alineen en un flexbox */
+    align-items: center; /* Centra verticalmente */
+    justify-content: center; /* Centra horizontalmente */ /* Ajusta la altura según el diseño */
+}
